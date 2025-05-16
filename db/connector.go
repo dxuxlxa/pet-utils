@@ -8,6 +8,7 @@ import (
 	"time"
 
 	"github.com/IBM/sarama"
+	_ "github.com/go-sql-driver/mysql" // MySQL driver
 	"github.com/redis/go-redis/v9"
 )
 
