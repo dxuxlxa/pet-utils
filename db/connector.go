@@ -12,26 +12,26 @@ import (
 )
 
 type SqlFields struct {
-	username string
-	password string
-	host     string
-	port     string
-	dbname   string
-	service  string
+	Username string
+	Password string
+	Host     string
+	Port     string
+	Dbname   string
+	Service  string
 }
 
 type RedisFields struct {
-	host     string
-	port     string
-	password string
-	db       int
-	service  string
+	Host     string
+	Port     string
+	Password string
+	Dbname       int
+	Service  string
 }
 
 type KafkaFields struct {
-	brokers []string
-	group   string
-	service string
+	Brokers []string
+	Group   string
+	Service string
 }
 
 // Example usage:
